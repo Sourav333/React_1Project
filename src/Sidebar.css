@@ -1,0 +1,21 @@
+.custom-mode-night-icon {
+    color: #F6BE00 /* Light yellow color */
+  }
+  .profile-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .background-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120px; /* Set the width and height of the background image */
+    height: 80px;
+    background-image: url('./back.png');
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 50%; Make it circular */
+    z-index: -1;
+  }
